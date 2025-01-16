@@ -28,9 +28,9 @@ model_paths = {
     "SVM": "model/svm_model.pkl",
     "LR": "model/log_reg_model.pkl",
     "LGB": "model/lgb_model.pkl",
-    # DEEP LEARNING MODELS
-    "CNN": "model/CNN_model.pkl",
-    "LTSM": "model/LTSM_model.pkl"
+    # # DEEP LEARNING MODELS
+    # "CNN": "model/CNN_model.pkl",
+    # "LTSM": "model/LTSM_model.pkl"
 }
 
 # Initialize predictions
