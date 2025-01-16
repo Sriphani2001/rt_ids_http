@@ -23,14 +23,9 @@ X_val_scaled = scaler.fit_transform(X_val)
 
 # Paths to your saved models
 model_paths = {
-    "RF": "model/rf_model.pkl",
     "KNN":"model/KNN_model.pkl",
     "SVM": "model/svm_model.pkl",
     "LR": "model/log_reg_model.pkl",
-    "LGB": "model/lgb_model.pkl",
-    # # DEEP LEARNING MODELS
-    # "CNN": "model/CNN_model.pkl",
-    # "LTSM": "model/LTSM_model.pkl"
 }
 
 # Initialize predictions

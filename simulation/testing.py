@@ -7,7 +7,7 @@ import seaborn as sns
 import numpy as np
 
 # Load the validation data from extracted_features .csv, unsuper_data/test_logs/test_log(1)
-validation_file_path = "data/validation.csv.csv"
+validation_file_path = "../data/X_val.csv"
 
 # Ensure the file exists
 if not os.path.exists(validation_file_path):
@@ -23,8 +23,9 @@ X_val_scaled = scaler.fit_transform(X_val)
 
 # Paths to your saved models
 model_paths = {
-    "SVM": "model/svm_model.pkl",
-    "LR": "model/log_reg_model.pkl",
+    "SVM": "../model/svm_model.pkl",
+    "LR": "../model/log_reg_model.pkl",
+    "KNN":"../model/KNN_model.pkl",
 }
 
 # Initialize predictions
